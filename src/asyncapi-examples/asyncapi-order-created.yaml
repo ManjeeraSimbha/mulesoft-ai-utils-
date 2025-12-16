@@ -1,0 +1,25 @@
+asyncapi: '3.0.0'
+info:
+  title: Order Created Event
+  version: 1.0.0
+channels:
+  order.created:
+    description: Event triggered when a new order is created.
+    subscribe:
+      message:
+        $ref: '#/components/messages/OrderCreated'
+components:
+  messages:
+    OrderCreated:
+      payload:
+        type: object
+        properties:
+          orderId:
+            type: string
+          customerId:
+            type: string
+          total:
+            type: number
+          createdAt:
+            type: string
+            format: date-time
