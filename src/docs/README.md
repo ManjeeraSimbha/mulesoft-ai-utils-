@@ -1,5 +1,9 @@
-# Documentation (Coming Soon)
-Architecture guides, usage instructions, API-led patterns, and reference docs.
+## Scope of This Repository
+
+This repository focuses on architectural patterns for enterprise integration systems,
+including AI-assisted data transformation, error-handling discipline, and event-driven
+integration reliability. The examples are intended to demonstrate design intent and
+production guardrails rather than end-user tooling.
 
 # Integration Architecture Utilities
 
