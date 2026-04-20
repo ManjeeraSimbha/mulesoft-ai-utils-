@@ -225,6 +225,5 @@ Medium: https://medium.com/@manjeerachandarao
 
 📜 License
 
-MIT License – free to use & extend.
 
 ⸻
